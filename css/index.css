@@ -149,20 +149,20 @@ footer.page-footer{
 
 
 /* button  */
-button {
+/* button {
   border-radius: 4px;
   background-color: #5ca1e1;
   border: none;
   color: #fff;
   text-align: center;
-  font-size: 32px;
+  font-size: 15px;
   padding: 16px;
   width: 220px;
   transition: all 0.5s;
   cursor: pointer;
   margin: 36px;
   box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
-}
+} */
 
 button{
   cursor: pointer;
