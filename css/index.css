@@ -1,0 +1,217 @@
+
+
+nav.navbar{
+    background-color:green;
+     -webkit-transition: all 0.9s ease;
+     transition: all 0.9s ease;
+     /* min-height: 70px; */
+     border:18px solid #ff970a;
+     border-radius: 15px;
+     position:fixed;
+     width:100%;
+     overflow:hidden;
+     z-index:1;
+  }
+
+  
+  
+  nav.navbar.shrink {
+    min-height: 35px;
+    background-color: blue;
+   
+  }
+  
+  nav>a.font{
+      font-size:2.5vw;
+  }
+  div.collapse{
+      display:flex;
+      flex-direction: row-reverse;
+      color:white;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    color:white;
+}
+
+  .img-responsive {
+       height:100vh;
+       width:100vw;
+       overflow-x:hidden;
+       overflow-y:hidden;
+     }
+
+     h3{
+         position:relative;
+         bottom:15%;
+         left:50%;
+     }
+     div.home{
+         margin:0px;
+         padding:0px;
+     }
+     
+     div.centered{
+            position: absolute;
+            top: 45%;
+            left: 45%;
+            transform: translate(-50%, -50%);
+          
+     }
+     .centered h1{
+        color:White;
+        font-size:4vw;
+     }
+
+     .centered h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+
+  div.bottom{
+    position: absolute;
+    top: 75%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+  
+}
+.centered button{
+color:green;
+font-size:4vw;
+}
+
+.centered button:hover{
+    border:2px solid black;
+    font-size:24rem;
+}
+
+div>h1.responsive{
+  margin-top:5vh;
+  color:orange;
+}
+
+div.About{
+  margin:auto;
+}
+
+h1.responsive{
+  text-align:center;
+}
+
+#about_cont{
+  width:30%;
+  height:100%;
+  position:relative;
+  left:0;
+  top:0;
+  display:inline-block;
+}
+
+#about-video{
+  width:60%;
+height:50vh;
+position:relative;
+right:0;
+top:0;
+
+}
+
+div.cards{
+  display:flex;
+  flex-direction: row;
+}
+
+h1.heading{
+  color:orange;
+  text-shadow: 2px 2px green;
+}
+
+footer.page-footer{
+  border-radius:2px;
+  background-color: orange;
+}
+
+
+
+/* button  */
+button {
+  border-radius: 4px;
+  background-color: #5ca1e1;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 32px;
+  padding: 16px;
+  width: 220px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 36px;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+}
+
+button{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+button:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;  
+  top: 14px;
+  right: -20px;
+  transition: 0.5s;
+}
+
+button:hover{
+  padding-right: 24px;
+  padding-left:8px;
+}
+
+button:hover:after {
+  opacity: 1;
+  right: 10px;
+}
+
+.button-left{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button-left:before {
+  content: '<<';
+  position: absolute;
+  opacity: 0;  
+  top: 14px;
+  right: 20px;
+  transition: 0.5s;
+}
+
+.button-left:hover{
+  padding-right: 12px;
+  padding-left:8px;
+}
+
+.button-left:hover:before {
+  opacity: 1;
+  right: 10px;
+}
